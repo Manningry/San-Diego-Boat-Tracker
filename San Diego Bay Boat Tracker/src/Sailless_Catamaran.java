@@ -15,7 +15,14 @@ public class Sailless_Catamaran extends Yacht{
 		inboardMotor = true;
 		numberOfEngines = 2; 
 		topSpeed = 22;
+		myTrailerable = (Trailerable) new IsTrailerable();
 	}
+	
+	public void dockYacht()
+		{
+			super.dockYacht();
+			System.out.println("The Catamaran requires an exceptionally wide dock space, accounting for its two hulls and wider body frame.");
+		}
 	
 	public void haveYachtParty()
 	{

@@ -15,7 +15,14 @@ public class PowerYacht extends Yacht{
 		inboardMotor = true;
 		numberOfEngines = 4; 
 		topSpeed = 31;
+		myTrailerable = (Trailerable) new IsNotTrailerable();
 	}
+	
+	public void dockYacht()
+		{
+			super.dockYacht();
+			System.out.println("The power yacht requires a deep, high docking space to account for its large length and tall height.");
+		}
 	
 	public void haveYachtParty()
 	{

@@ -13,12 +13,20 @@ protected int numberOfRodHolders;
 		numberOfLiveWells = 2;
 		storageCapacity = 9;
 		insideDepth = 24;
-		decalDescription = "Sleek, shiny, and full of flames";
+		decalDescription = "sleek, shiny, and full of flames";
 		combinedEngineHorsepower = 250;
 		inboardMotor = false;
 		numberOfEngines = 1; 
 		topSpeed = 56;
+		myTrailerable = (Trailerable) new IsTrailerable();
 	}
+	
+	public void catchFish()
+		{
+		super.catchFish();
+			System.out.println("Bass boats are used to catch bass and other shallow water fish.");
+			
+		}
 	
 	public void turnOnEngine()
 	{

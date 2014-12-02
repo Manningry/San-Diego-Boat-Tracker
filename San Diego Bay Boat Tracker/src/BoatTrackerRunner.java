@@ -19,6 +19,7 @@ public class BoatTrackerRunner {
 		boat [i].cruise();
 		boat [i].showFishingDetails();
 		boat [i].showFishScanner();
+		boat [i].myTrailerable.trailerBoat();
 		System.out.println("");
 		
 	}
@@ -38,6 +39,7 @@ public class BoatTrackerRunner {
 		yacht[i].showYachtDetails();
 		yacht[i].haveYachtParty();
 		yacht[i].dockYacht();
+		yacht[i].myTrailerable.trailerBoat();
 		System.out.println("");
 	}
 

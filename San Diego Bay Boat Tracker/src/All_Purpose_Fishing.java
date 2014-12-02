@@ -2,7 +2,7 @@
 public class All_Purpose_Fishing extends FishingBoat {
 
 	protected int numberOfRodHolders;
-	
+
 	
 	public All_Purpose_Fishing ()
 	{
@@ -14,7 +14,14 @@ public class All_Purpose_Fishing extends FishingBoat {
 		inboardMotor = true;
 		numberOfEngines = 2; 
 		topSpeed = 24;
+		myTrailerable = (Trailerable) new IsNotTrailerable();
 	}
+	
+	public void catchFish()
+		{
+		super.catchFish();
+			System.out.println("All purpose fishing boats are used to catch fish in all depths of water, which could include salmon to trout.");
+		}
 	
 	public void turnOnEngine()
 	{
