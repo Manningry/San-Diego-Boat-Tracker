@@ -1,7 +1,7 @@
 
 public abstract class Motorboat {
 
-	protected double engineSize;
+	protected double combinedEngineHorsepower;
 	protected boolean inboardMotor;
 	protected int numberOfEngines;
 	protected double topSpeed;
@@ -15,12 +15,12 @@ public abstract class Motorboat {
 	{
 		if(inboardMotor == true)
 		{
-			System.out.println("This Motorboat has " + numberOfEngines + " inboard engine(s), possessing " + engineSize + " total horsepower.");
+			System.out.println("This Motorboat has " + numberOfEngines + " inboard engine(s), possessing " + combinedEngineHorsepower + " total horsepower.");
 		}
 		
 		if(inboardMotor == false)
 		{
-			System.out.println("This Motorboat has " + numberOfEngines + " outboard engine(s), possessing " + engineSize + " total horsepower.");
+			System.out.println("This Motorboat has " + numberOfEngines + " outboard engine(s), possessing " + combinedEngineHorsepower + " total horsepower.");
 		}
 	
 }

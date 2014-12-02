@@ -6,20 +6,11 @@ protected int numberOfLiveWells;
 protected double storageCapacity;
 
 public abstract void showFishScanner();
-public abstract void catchFish();
+public abstract void showFishingDetails();
 
-public void showFishingDetails()
+public void catchFish()
 {
-	if(fishingNets == true)
-	{
-		System.out.println("This fishing boat uses nets to catch fish, and contains " + numberOfLiveWells + " livewells along with " + storageCapacity + " storage compartments.");
-	}
-	
-	if(fishingNets == false)
-	{
-		System.out.println("This fishing boat does not use nets to catch fish, and contains " + numberOfLiveWells + " livewells along with " + storageCapacity + " storage compartments.");
-	}
+	System.out.println("Fishing boats are specifically built and outfitted to catch and store fish.");
 }
-	
 	
 }
