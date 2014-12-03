@@ -42,9 +42,9 @@ public class All_Purpose_Fishing extends FishingBoat {
 	{
 		if(fishingNets == true)
 		{
-		System.out.println("This fisherman uses nets along with poles to catch fish. He has " + numberOfRodHolders + "availible for his use, "
-				+ "along with " + storageCapacity + "storage compartments to keep his equipment organized. When he catches a fish, he has "+ 
-				numberOfLiveWells + " availible to store the fish.");
+		System.out.println("This fisherman uses nets along with poles to catch fish. He has " + numberOfRodHolders + " rod holders availible for his use, "
+				+ "along with " + storageCapacity + " storage compartments to keep his equipment organized. When he catches a fish, he has "+ 
+				numberOfLiveWells + " live wells availible to store the fish.");
 		}
 		else
 		{

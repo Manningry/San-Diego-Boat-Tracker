@@ -47,15 +47,16 @@ protected int numberOfRodHolders;
 	{
 		if(fishingNets == true)
 		{
-		System.out.println("This fisherman uses a boat that can be described as being " + decalDescription + " . He uses nets along with poles to catch fish. "
-				+ "He has only has an internal boat depth of " + insideDepth + " incehs, but surprisingly has " + storageCapacity + "storage compartments to keep his equipment organized. When he catches a fish, he has "+ 
+		System.out.println("This fisherman uses a boat that can be described as being " + decalDescription + " . He uses nets along with poles to catch fish. ");
+		System.out.println("\tHe only has an internal boat depth of " + insideDepth + " inches, but surprisingly has " + storageCapacity + " storage compartments to keep his equipment organized. \tWhen he catches a fish, he has "+ 
 				numberOfLiveWells + " availible to store the fish.");
 		}
 		else
 		{
-			System.out.println("This fisherman uses a boat that can be described as being " + decalDescription + " . He only uses poles to catch fish. "
-					+ "He has only has an internal boat depth of " + insideDepth + " incehs, but surprisingly has " + storageCapacity + "storage compartments to keep his equipment organized. When he catches a fish, he has "+ 
-					numberOfLiveWells + " availible to store the fish.");
+			System.out.println("This fisherman uses a boat that can be described as being " + decalDescription + ". He only uses poles to catch fish. ");
+			System.out.println("He only has an internal boat depth of " + insideDepth + " inches, but surprisingly has " + storageCapacity + " storage compartments to keep his equipment organized.");
+			System.out.println("When he catches a fish, he has "+ 
+					numberOfLiveWells + " live wells availible to store the fish.");
 		}
 	}
 }

@@ -26,7 +26,7 @@ public class Sailless_Catamaran extends Yacht{
 	
 	public void haveYachtParty()
 	{
-		System.out.println("The sailless catamaran is able to host a small party with only 5-10 guests do to its smaller space and seperated floor plan.");
+		System.out.println("The sailless catamaran is able to host a small party with only 5-10 guests due to its smaller space and seperated floor plan.");
 	}
 	
 	
@@ -43,6 +43,6 @@ public class Sailless_Catamaran extends Yacht{
 	
 	public void cruise()
 	{
-		System.out.println("He can cruise at an average speed of 13 miles per hour, which provides a good time and saves gas!).");
+		System.out.println("He can cruise at an average speed of 13 miles per hour, which provides a good time and saves gas!");
 	}
 }

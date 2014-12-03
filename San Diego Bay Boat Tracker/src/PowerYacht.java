@@ -26,14 +26,14 @@ public class PowerYacht extends Yacht{
 	
 	public void haveYachtParty()
 	{
-		System.out.println("The power yacht is able to host a massive party with over 25 guests do to its larger space and floor plan.");
+		System.out.println("The power yacht is able to host a massive party with over 25 guests due to its larger space and floor plan.");
 	}
 	
 	
 	public void showYachtDetails()
 	{
 	System.out.println("This yacht contains " + bedrooms +" bedrooms and " + bathrooms + " bathrooms. It has a standard crew of " + 
-	crewNumber + " people, who are present on all " + numberOfDecks + " decks. It also stores accesory watercrafts such as " + accesoryWatercrafts + " .");
+	crewNumber + " people, who are present on all " + numberOfDecks + " decks. It also stores accesory watercrafts such as " + accesoryWatercrafts + ".");
 	}
 	
 	public void turnOnEngine()
@@ -43,7 +43,7 @@ public class PowerYacht extends Yacht{
 	
 	public void cruise()
 	{
-		System.out.println("He can cruise at an average speed of 20 miles per hour, which provides a perfectly gentle ride).");
+		System.out.println("He can cruise at an average speed of 20 miles per hour, which provides a perfectly gentle ride.");
 	}
 	
 	
